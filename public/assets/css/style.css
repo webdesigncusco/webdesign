@@ -1,0 +1,67 @@
+/* Your custom styles */
+@import url('https://fonts.googleapis.com/css?family=Khand');
+/* Navigation*/
+.navbar {
+  background-color: transparent;
+}
+.scrolling-navbar {
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.top-nav-collapse {
+  background-color: #2196F3;
+}
+footer.page-footer {
+  background-color: #2196F3;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #2196F3;
+  }
+}
+
+/* Necessary for full page carousel*/
+html,
+body,
+.view {
+  height: 100%;
+}
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active,
+.carousel-item,
+.carousel-item img {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* PRICING TAble*/
+
+/*ESTILOS DEL MENU */
+.navbar
+.collapse
+.navbar-nav
+.nav-item a {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*ESTILOS DEL MENU */
+
+.link-footer a:hover {
+  color: #E91E63;
+}
+
+.link-footer i:hover {
+  color: #E91E63;
+}
